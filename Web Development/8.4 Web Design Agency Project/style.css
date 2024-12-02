@@ -19,3 +19,33 @@ footer {
   color: midnightblue;
 }
 
+.logo{
+  display: block;
+  height: 50px;
+  width: auto;
+}
+/* div > h1{
+  display: block;
+  width: 60%;
+}
+img{
+  float: left;
+  height: 200px;
+  width: auto;
+}
+.left{
+  display: inline-block;
+  float: left;
+}
+.right{
+  display: inline-block;
+  float:right
+}
+.card{
+  width: 50%;
+  margin: 0;
+}
+div div > p, div div > h2{
+  text-align: left;
+  
+} */
