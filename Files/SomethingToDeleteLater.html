@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SomethingToDeleteLater</title>
+    <style>
+        .main{
+            display: flex;
+            flex-direction: row;
+            border: 4 red solid;
+            height: 200px;
+            width: 100%;
+            gap: 10px;
+        }
+        .secondmaindiv
+        {
+            display: flex;
+            flex-direction: row;
+            border: 4 red solid;
+            height: 500px;
+            width: 100%;
+            gap: 5px;
+        }
+        .content
+        {
+            border: 1px red solid;
+            background-color: blue;
+            color: blue;
+        }
+        .onediv{
+            flex: .50;
+        }
+        .twodiv{
+            flex: .25;
+        }
+        .threediv{
+            flex: .25;
+        }
+        .onediv1{
+            flex: .15;
+        }
+        .twodiv1{
+            flex: .70;
+        }
+        .threediv1{
+            flex: .15;
+        }
+        h1, h2{
+            font-size: 3rem;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="onediv content">
+            <h1>Welcome to my HTML trial</h1>
+        </div>
+        <div class="twodiv content"></div>
+        <div class="threediv content"></div>
+    </div>
+    <div class="secondmaindiv">
+        <div class="onediv1 content"></div>
+        <div class="twodiv1 content">
+            <h2>Hello World</h2>
+        </div>
+        <div class="threediv1 content"></div>
+    </div>
+</body>
+</html>
