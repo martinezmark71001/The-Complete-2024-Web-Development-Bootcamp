@@ -7,44 +7,30 @@
     <style>
         .main{
             display: flex;
-            flex-direction: row;
             border: 4 red solid;
-            height: 200px;
-            width: 100%;
+            flex-direction: column;
+            flex-grow: 4;
             gap: 10px;
         }
-        .secondmaindiv
-        {
+        .secondmaindiv{
             display: flex;
-            flex-direction: row;
             border: 4 red solid;
-            height: 500px;
-            width: 100%;
+            flex-direction: column;
             gap: 5px;
         }
-        .content
-        {
+        .content{
             border: 1px red solid;
             background-color: blue;
-            color: blue;
+            color: black;
         }
-        .onediv{
-            flex: .50;
+        .onediv {
+            flex: 1;
         }
         .twodiv{
-            flex: .25;
+            flex: 1;
         }
         .threediv{
-            flex: .25;
-        }
-        .onediv1{
-            flex: .15;
-        }
-        .twodiv1{
-            flex: .70;
-        }
-        .threediv1{
-            flex: .15;
+            flex: 2;
         }
         h1, h2{
             font-size: 3rem;
@@ -54,19 +40,21 @@
     </style>
 </head>
 <body>
-    <div class="main">
-        <div class="onediv content">
-            <h1>Welcome to my HTML trial</h1>
+    <div>
+        <div class="main">
+            <div class="onediv content">
+                <h1>Welcome to my HTML trial</h1>
+            </div>
+            <div class="twodiv content">two</div>
+            <div class="threediv content">three</div>
         </div>
-        <div class="twodiv content"></div>
-        <div class="threediv content"></div>
-    </div>
-    <div class="secondmaindiv">
-        <div class="onediv1 content"></div>
-        <div class="twodiv1 content">
-            <h2>Hello World</h2>
+        <div class="secondmaindiv">
+            <div class="onediv1 content">four</div>
+            <div class="twodiv1 content">
+                <h2>Hello World</h2>
+            </div>
+            <div class="threediv1 content">five</div>
         </div>
-        <div class="threediv1 content"></div>
     </div>
 </body>
 </html>
